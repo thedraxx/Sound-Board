@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap');
+// colors
+
+$pastel: #9ADCFF;
+$redblack: rgba(224, 1, 19, 0.418);
+$white: rgb(255, 247, 247);
+$Light: #FF8AAE;
+$lightwhite: rgb(255, 255, 255);
+
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $pastel ;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'MuseoModerno', cursive;  height: 100vh,;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+
+
+  .btn {
+    background-color: $Light ;
+    border-radius: 25px;
+    border: none;
+    color: $white;
+    margin: 1.7rem;
+    padding: 1.5rem 5rem;
+    font-family: inherit;
+    cursor: pointer;
+  
+      &:focus{
+        outline: none;
+      }
+
+      &:hover{
+        opacity: 0.9;
+      }
+  }
+
+  #buttons{
+    margin-top: 1rem;
+  }
+  
+  .container{
+    display: block;
+    margin: 0rem 0rem;
+    position: absolute;
+    margin-top: 25vw;
+
+      .img{
+        margin: 0rem 15rem;
+        width: 30%;
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+      } 
+  }
+}
+
+
