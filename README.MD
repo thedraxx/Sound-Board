@@ -5,7 +5,7 @@
   </a>
 </p>
 
-> a Form wave Animation</br>
+> a Sound Board</br>
 
 ## 🦁 Technology I Use: 
 
@@ -31,7 +31,7 @@ E-mail: cerrano.francisco22@gmail.com
 * Github: [thedraxx](https://github.com/thedraxx)
 * LinkedIn: [Francisco Isaac Cerrano](https://www.linkedin.com/in/cerranofrancisco/)
 
-## ⚙️ Day 7 of 50 (Form wave Animation)
+## ⚙️ Day 9 of 50 (Sound Board)
   
 ## 📝 Licence
 
