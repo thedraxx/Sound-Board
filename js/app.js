@@ -1,8 +1,8 @@
 const sounds = [
-    'final fantasy',
-    'Michael Jackson',
+    'Victory',
+    'Au!',
     'Sega',
-    'metal gear solid',
+    '!',
 ];
 
 state = true; // no hay nada 
@@ -17,7 +17,7 @@ sounds.forEach(sound => {
 
         document.getElementById(sound).play();
 
-        if (sound === 'Michael Jackson') {
+        if (sound === 'Au!') {
             if (state) {
                 image.classList.add('img');
                 image.src = './Moonwalk.gif';
@@ -32,7 +32,7 @@ sounds.forEach(sound => {
             }
         }
 
-        if (sound === 'final fantasy') {
+        if (sound === 'Victory') {
             if (state) {
                 image.classList.add('img');
                 image.src = './finalfantasy.gif';
@@ -62,7 +62,7 @@ sounds.forEach(sound => {
             }
         }
 
-        if (sound === 'metal gear solid') {
+        if (sound === '!') {
             if (state) {
                 image.classList.add('img');
                 image.src = './metal.gif';

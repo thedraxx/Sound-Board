@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #9ADCFF;
+  background-color: #3E497A;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -30,14 +30,19 @@ body {
 }
 
 body .btn {
-  background-color: #FF8AAE;
-  border-radius: 25px;
+  background-color: #21325E;
+  border-radius: 15px;
   border: none;
   color: #fff7f7;
   margin: 1.7rem;
   padding: 1.5rem 5rem;
   font-family: inherit;
+  font-size: 25px;
   cursor: pointer;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
 }
 
 body .btn:focus {
@@ -49,7 +54,7 @@ body .btn:hover {
 }
 
 body #buttons {
-  margin-top: 1rem;
+  margin-top: -10rem;
 }
 
 body .container {
@@ -61,7 +66,7 @@ body .container {
 
 body .container .img {
   margin: 0rem 15rem;
-  width: 30%;
+  width: 50%;
   border-radius: 25px;
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;

@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap');
 // colors
 
-$pastel: #9ADCFF;
-$redblack: rgba(224, 1, 19, 0.418);
+$pastel: #3E497A;
 $white: rgb(255, 247, 247);
-$Light: #FF8AAE;
-$lightwhite: rgb(255, 255, 255);
+$Light: #21325E;
+
 
 
 *{
@@ -28,13 +27,18 @@ body {
 
   .btn {
     background-color: $Light ;
-    border-radius: 25px;
+    border-radius:15px;
     border: none;
     color: $white;
     margin: 1.7rem;
     padding: 1.5rem 5rem;
     font-family: inherit;
+    font-size: 25px;
     cursor: pointer;
+    -webkit-border-radius:15px;
+    -moz-border-radius:15px;
+    -ms-border-radius:15px;
+    -o-border-radius:15px;
   
       &:focus{
         outline: none;
@@ -46,7 +50,7 @@ body {
   }
 
   #buttons{
-    margin-top: 1rem;
+    margin-top: -10rem;
   }
   
   .container{
@@ -57,7 +61,7 @@ body {
 
       .img{
         margin: 0rem 15rem;
-        width: 30%;
+        width: 50%;
         border-radius: 25px;
         -webkit-border-radius: 25px;
         -moz-border-radius: 25px;
